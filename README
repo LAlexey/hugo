@@ -1,0 +1,3 @@
+hugo --renderSegments political_economy
+hugo --renderSegments logic
+hugo --renderSegments common

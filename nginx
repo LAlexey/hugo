@@ -1,0 +1,2 @@
+docker run -it --rm -p 8080:80 --name some-nginx -v /Users/alexey/Projects/hugo/quickstart/public:/usr/share/nginx/html:ro nginx
+

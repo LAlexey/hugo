@@ -1,0 +1,15 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: 'My Hugo Site'
+theme: 'ananke'
+
+segments:
+  logic:
+    includes:
+    - path: '{/logic,/logic/**}'
+  political_economy:
+    includes:
+    - path: '{/political_economy,/political_economy/**}'
+  common:
+    includes:
+    - kind: '{home,section,taxonomy,term}'
